@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HyriX - Présentation</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="HyriX Logo" height="40">
+    </div>
+    <div class="menu-toggle">☰</div>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="presentation.html">Présentation</a>
+        <a href="rosters.html">Rosters</a>
+        <a href="reseaux.html">Réseaux</a>
+        <a href="boutique.html">Boutique</a>
+    </nav>
+</header>
+
+<section class="intro center">
+    <h1 class="hidden">HYRIX</h1>
+    <p class="hidden subtitle">Competitive Esports Organization</p>
+</section>
+
+<section class="block left hidden">
+    <div class="content">
+        <h2>Notre Histoire</h2>
+        <p>
+            Fondée le 24 février 2026, HyriX est née d’une vision ambitieuse portée par un passionné d’e-sport.
+            Construite pour durer, l’organisation repose sur des bases solides et une identité forte.
+        </p>
+    </div>
+</section>
+
+<section class="block right hidden">
+    <div class="content">
+        <h2>Notre Vision</h2>
+        <p>
+            Devenir une référence européenne compétitive.
+            Construire un projet à long terme basé sur la progression et la rigueur.
+        </p>
+    </div>
+</section>
+
+<section class="block left hidden">
+    <div class="content">
+        <h2>Objectifs 2026</h2>
+        <ul>
+            <li>Top classements FNCS</li>
+            <li>Qualification World Cup</li>
+            <li>Équipe stable et structurée</li>
+            <li>Communauté engagée</li>
+        </ul>
+    </div>
+</section>
+
+<section class="block right hidden">
+    <div class="content">
+        <h2>Nos Valeurs</h2>
+        <ul>
+            <li>Discipline</li>
+            <li>Solidarité</li>
+            <li>Respect</li>
+            <li>Développement des talents</li>
+        </ul>
+    </div>
+</section>
+
+<section class="block left hidden">
+    <div class="content">
+        <h2>Notre Mentalité</h2>
+        <p>
+            Nous ne cherchons pas simplement à jouer.
+            Nous cherchons à dominer.
+        </p>
+    </div>
+</section>
+
+<section class="center slogan hidden">
+    <h2>Built for Dominance.</h2>
+</section>
+
+<script src="script.js"></script>
+
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 70 },
+    color: { value: "#00ffff" },
+    size: { value: 3 },
+    move: { speed: 2 }
+  }
+});
+</script>
+
+</body>
+</html>
