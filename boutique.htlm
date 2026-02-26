@@ -1,0 +1,14 @@
+<section>
+    <h2 class="hidden">Boutique Officielle</h2>
+
+    <div class="card hidden">
+        <h3>Ouverture Prochaine</h3>
+        <p>
+            La boutique HyriX est actuellement en préparation.
+            Nos maillots et produits officiels seront disponibles très bientôt.
+        </p>
+        <p style="margin-top:20px; color:cyan;">
+            Stay tuned.
+        </p>
+    </div>
+</section>
