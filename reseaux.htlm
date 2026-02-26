@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TeamHyriX - Réseaux</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<header>
+    <div class="logo">TeamHyriX</div>
+    <div class="menu-toggle">☰</div>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="presentation.html">Présentation</a>
+        <a href="rosters.html">Rosters</a>
+        <a href="reseaux.html">Réseaux</a>
+        <a href="boutique.html">Boutique</a>
+    </nav>
+</header>
+
+<section>
+    <h2 class="hidden">Nos Réseaux</h2>
+
+    <div class="card hidden">
+        <h3>Discord</h3>
+        <a href="#" class="btn">Rejoindre</a>
+    </div>
+
+    <div class="card hidden">
+        <h3>Twitter</h3>
+        <a href="#" class="btn">Suivre</a>
+    </div>
+
+    <div class="card hidden">
+        <h3>Instagram</h3>
+        <a href="#" class="btn">Suivre</a>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    color: { value: "#00ffff" },
+    size: { value: 3 },
+    move: { speed: 2 }
+  }
+});
+</script>
+
+</body>
+</html>
