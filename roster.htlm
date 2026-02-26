@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TeamHyriX - Rosters</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+<header>
+    <div class="logo">TeamHyriX</div>
+    <div class="menu-toggle">☰</div>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="presentation.html">Présentation</a>
+        <a href="rosters.html">Rosters</a>
+        <a href="reseaux.html">Réseaux</a>
+        <a href="boutique.html">Boutique</a>
+    </nav>
+</header>
+
+<section>
+    <h2 class="hidden">Nos Rosters</h2>
+
+    <div class="card hidden">
+        <h3>Roster Principal</h3>
+        <p>Joueur 1 - IGL</p>
+        <p>Joueur 2 - Entry</p>
+        <p>Joueur 3 - Support</p>
+        <p>Joueur 4 - Sniper</p>
+    </div>
+
+    <div class="card hidden">
+        <h3>Roster Académie</h3>
+        <p>Joueur A</p>
+        <p>Joueur B</p>
+        <p>Joueur C</p>
+    </div>
+
+    <div class="card hidden">
+        <h3>Staff</h3>
+        <p>Manager</p>
+        <p>Coach</p>
+        <p>Community Manager</p>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 80 },
+    color: { value: "#00ffff" },
+    size: { value: 3 },
+    move: { speed: 2 }
+  }
+});
+</script>
+
+</body>
+</html>
